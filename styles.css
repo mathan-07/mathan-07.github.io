@@ -71,7 +71,7 @@
   /* signature node-graph graphic *//*
   .node-graphic{width:100%; height:auto;}
 
-  /* ---------- Section shell ---------- */
+  /* ---------- Section shell ---------- *//*
   section.block{max-width:var(--maxw); margin:0 auto; padding:0 24px 64px;}
   .card{
     background:var(--white); border-radius:var(--radius);
