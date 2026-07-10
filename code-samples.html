@@ -26,7 +26,7 @@
   </div>
 </header>
 
-<section class="block" style="padding-top:64px;">
+<!-- <section class="block" style="padding-top:64px;">
   <span class="eyebrow" style="display:block; margin-bottom:10px;">// Code Samples</span>
   <h1 style="font-size:2.2rem; margin-bottom:14px;">Code samples</h1>
   <p class="body-text" style="margin-bottom:36px;">Clean, tested implementations pulled from the projects on this site.</p>
@@ -40,7 +40,51 @@
     </div>
     <div class="placeholder-note">Link each tile to a GitHub Gist or repo file once ready — snippets alone read as unfinished; a link to real, working code carries more weight.</div>
   </div>
-</section>
+</section> -->
+<div class="code-grid" style="margin-top:0;">
+
+  <a href="https://github.com/mathan-07/VPGroup_Project1/blob/main/force-app/main/default/classes/VP_OnboardingController.cls"
+     target="_blank"
+     class="code-tile">
+    <span class="tag">// apex</span>
+    VP_OnboardingController
+    <br><br>
+    @AuraEnabled methods for LWC data 
+    loading with WITH USER_MODE security
+  </a>
+
+  <a href="https://github.com/mathan-07/VPGroup_Project1/blob/main/force-app/main/default/lwc/vpOnboardingProgressTracker/vpOnboardingProgressTracker.js"
+     target="_blank"
+     class="code-tile">
+    <span class="tag">// lwc</span>
+    vpOnboardingProgressTracker
+    <br><br>
+    Promise.all data loading, 
+    notifyRecordUpdateAvailable, 
+    data-attribute event pattern
+  </a>
+
+  <a href="https://github.com/mathan-07/VPGroup_Project1/blob/main/force-app/main/default/classes/VP_OnboardingController_Test.cls"
+     target="_blank"
+     class="code-tile">
+    <span class="tag">// test</span>
+    VP_OnboardingController_Test
+    <br><br>
+    6 test methods covering positive, 
+    negative and edge cases
+  </a>
+
+  <div class="code-tile" 
+       style="opacity:0.4;">
+    <span class="tag">// flow</span>
+    VP_Auto_Complete_Onboarding_Status
+    <br><br>
+    Record-Triggered Flow using Get Records 
+    COUNT pattern — avoids Roll-Up Summary 
+    transaction timing issue
+  </div>
+
+</div>
 
 <footer>
   <div class="footer-wrap">
