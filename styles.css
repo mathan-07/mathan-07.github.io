@@ -255,9 +255,22 @@ nav ul li a:hover{
 /* ---------- Hero ---------- */
 
 .hero{
-    padding:120px 0;
+    padding:40px 0;
     text-align:center;
 }
+
+.hero-skills{
+    padding:40px 0;
+}
+
+.hero-cert{
+    padding:15px 0;
+}
+
+.hero-proj-roadmap{
+  padding:40px 0
+}
+
 
 .hero h1{
     font-size:48px;
@@ -307,7 +320,7 @@ section{
             max-width:1100px;
             margin:60px auto;
            
-            padding:40px;
+            padding:60px;
             border-radius:10px;
             
         }
@@ -437,6 +450,22 @@ footer p{
 .highlight{
     color:#0176d3;
     font-weight:600;
+}
+
+/* ===============================
+   Disabled Button
+================================= */
+
+.btn-disabled{
+    background:#b5b5b5;
+    color:#ffffff;
+    cursor:not-allowed;
+    pointer-events:none;
+    opacity:0.75;
+}
+
+.btn-disabled:hover{
+    background:#b5b5b5;
 }
 
 /* ---------- Responsive ---------- */
